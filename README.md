@@ -10,6 +10,15 @@ This project explores a practical pipeline for understanding Pakistani e-commerc
 
 The long-term product direction is a website where a user pastes a product URL and sees comparable products from marketplaces such as Daraz, SHEIN, Alibaba, and AliExpress, with review-level sentiment summaries. That website is a planned application—not a claim that every marketplace integration is already implemented.
 
+## 🎬 Live Demo
+
+Watch LAYA analyze Pakistani e-commerce reviews and perform sentiment analysis.
+
+
+https://github.com/user-attachments/assets/94e35f56-91f2-4f92-807d-307122c675c5
+
+
+
 ## Research journey
 
 1. **Start from existing research data.** The project began with the Roman Urdu E-Commerce Dataset (RUECD), associated with the original author account [`bilalbaloch1`](https://github.com/bilalbaloch1/RU-BiSLTM). The upstream repository describes 26,824 Roman Urdu reviews with sentiment labels Positive (1), Negative (0), and Neutral (2). See [Dataset provenance and licensing](#dataset-provenance-and-licensing).
