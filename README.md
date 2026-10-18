@@ -128,3 +128,25 @@ silver labels that have not been independently verified by human annotators.
 ### Calibration and Risk
 
 ![LAYA calibration and risk comparison](figures/03_calibration_and_risk.png)
+
+## Training Infrastructure and Parallel Annotation
+
+### Distributed Fine-Tuning
+
+LAYA was fine-tuned using **two GPUs** with a distributed computing setup
+to parallelize training across the available hardware.
+
+### Parallel Dataset Annotation with Qwen3:14B
+
+The annotation pipeline used **Qwen3:14B** to generate machine-assisted
+labels for Roman Urdu e-commerce reviews. Annotation jobs were processed
+in parallel, using **16 workers per GPU** to increase throughput across
+the available GPU resources.
+
+This parallel workflow helped scale annotation across the dataset before
+the labeled data was used in the LAYA fine-tuning workflow.
+
+**Annotation quality note:** Qwen-generated labels are machine-generated
+silver labels, not independently human-verified ground truth. Evaluation
+results should therefore be interpreted as agreement with the reference
+labels rather than definitive human-level accuracy.
