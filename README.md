@@ -150,3 +150,10 @@ the labeled data was used in the LAYA fine-tuning workflow.
 silver labels, not independently human-verified ground truth. Evaluation
 results should therefore be interpreted as agreement with the reference
 labels rather than definitive human-level accuracy.
+
+## 🎬 Streamlit Demo
+
+Watch a sped-up demonstration of LAYA analyzing Pakistani e-commerce
+reviews and performing sentiment analysis.
+
+**[▶ Watch / Download the Demo](https://github.com/raahlm/urdu-ecommerce-sentiment-laya/releases/tag/demo-v1)**
