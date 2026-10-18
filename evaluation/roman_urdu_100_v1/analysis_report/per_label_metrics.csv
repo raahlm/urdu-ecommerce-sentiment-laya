@@ -1,0 +1,196 @@
+system,task,label,support,tp,fp,fn,tn,precision,recall,f1,accuracy,macro_f1,n
+Qwen 3 14B,review_intents,PRAISE,35,23.0,7.0,12.0,58.0,0.7666666666666667,0.6571428571428571,0.7076923076923077,,,
+Qwen 3 14B,review_intents,COMPLAINT,60,57.0,14.0,3.0,26.0,0.8028169014084507,0.95,0.8702290076335878,,,
+Qwen 3 14B,review_intents,RECOMMENDATION,4,0.0,0.0,4.0,96.0,0.0,0.0,0.0,,,
+Qwen 3 14B,review_intents,COMPARISON,2,2.0,0.0,0.0,98.0,1.0,1.0,1.0,,,
+Qwen 3 14B,review_intents,QUESTION,5,5.0,1.0,0.0,94.0,0.8333333333333334,1.0,0.9090909090909091,,,
+Qwen 3 14B,review_intents,EXPERIENCE_REPORT,26,1.0,6.0,25.0,68.0,0.14285714285714285,0.038461538461538464,0.060606060606060615,,,
+Qwen 3 14B,review_intents,RESOLUTION_REQUEST,3,0.0,0.0,3.0,97.0,0.0,0.0,0.0,,,
+Qwen 3 14B,review_intents,GENERAL_REACTION,6,0.0,6.0,6.0,88.0,0.0,0.0,0.0,,,
+Qwen 3 14B,review_intents,OTHER,0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,,,
+Qwen 3 14B,aspect_categories,PRODUCT_QUALITY,14,12.0,11.0,2.0,75.0,0.5217391304347826,0.8571428571428571,0.6486486486486486,,,
+Qwen 3 14B,aspect_categories,PRODUCT_FUNCTIONALITY,10,9.0,1.0,1.0,89.0,0.9,0.9,0.9,,,
+Qwen 3 14B,aspect_categories,PRODUCT_DESIGN,3,2.0,2.0,1.0,95.0,0.5,0.6666666666666666,0.5714285714285715,,,
+Qwen 3 14B,aspect_categories,SIZE_FIT,7,6.0,0.0,1.0,93.0,1.0,0.8571428571428571,0.923076923076923,,,
+Qwen 3 14B,aspect_categories,PRICE_VALUE,11,9.0,0.0,2.0,89.0,1.0,0.8181818181818182,0.9,,,
+Qwen 3 14B,aspect_categories,DELIVERY,14,11.0,0.0,3.0,86.0,1.0,0.7857142857142857,0.88,,,
+Qwen 3 14B,aspect_categories,PACKAGING,6,5.0,1.0,1.0,93.0,0.8333333333333334,0.8333333333333334,0.8333333333333334,,,
+Qwen 3 14B,aspect_categories,SELLER_SERVICE,8,8.0,3.0,0.0,89.0,0.7272727272727273,1.0,0.8421052631578948,,,
+Qwen 3 14B,aspect_categories,ORDER_FULFILLMENT,13,8.0,6.0,5.0,81.0,0.5714285714285714,0.6153846153846154,0.5925925925925927,,,
+Qwen 3 14B,aspect_categories,AUTHENTICITY,4,3.0,0.0,1.0,96.0,1.0,0.75,0.8571428571428571,,,
+Qwen 3 14B,aspect_categories,RETURN_REFUND,7,6.0,0.0,1.0,93.0,1.0,0.8571428571428571,0.923076923076923,,,
+Qwen 3 14B,aspect_categories,CUSTOMER_SUPPORT,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+Qwen 3 14B,aspect_categories,PRODUCT_AVAILABILITY,2,2.0,1.0,0.0,97.0,0.6666666666666666,1.0,0.8,,,
+Qwen 3 14B,aspect_categories,GENERAL_EXPERIENCE,16,9.0,8.0,7.0,76.0,0.5294117647058824,0.5625,0.5454545454545455,,,
+Qwen 3 14B,aspect_categories,OTHER,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+Qwen 3 14B,aspect_sentiment,PRODUCT_QUALITY,14,,,,,,,,0.87,0.5538708735027753,100.0
+Qwen 3 14B,aspect_sentiment,PRODUCT_FUNCTIONALITY,10,,,,,,,,0.95,0.5355555555555556,100.0
+Qwen 3 14B,aspect_sentiment,PRODUCT_DESIGN,3,,,,,,,,0.97,0.5948186528497409,100.0
+Qwen 3 14B,aspect_sentiment,SIZE_FIT,7,,,,,,,,0.97,0.5322638146167558,100.0
+Qwen 3 14B,aspect_sentiment,PRICE_VALUE,11,,,,,,,,0.96,0.6222222222222222,100.0
+Qwen 3 14B,aspect_sentiment,DELIVERY,14,,,,,,,,0.94,0.7328937728937728,100.0
+Qwen 3 14B,aspect_sentiment,PACKAGING,6,,,,,,,,0.98,0.9297872340425531,100.0
+Qwen 3 14B,aspect_sentiment,SELLER_SERVICE,8,,,,,,,,0.97,0.8801894238358328,100.0
+Qwen 3 14B,aspect_sentiment,ORDER_FULFILLMENT,13,,,,,,,,0.88,0.49546768260641094,100.0
+Qwen 3 14B,aspect_sentiment,AUTHENTICITY,4,,,,,,,,0.98,0.5820379965457685,100.0
+Qwen 3 14B,aspect_sentiment,RETURN_REFUND,7,,,,,,,,0.97,0.5491087344028521,100.0
+Qwen 3 14B,aspect_sentiment,CUSTOMER_SUPPORT,2,,,,,,,,0.98,0.32996632996632996,100.0
+Qwen 3 14B,aspect_sentiment,PRODUCT_AVAILABILITY,2,,,,,,,,0.98,0.4987179487179487,100.0
+Qwen 3 14B,aspect_sentiment,GENERAL_EXPERIENCE,16,,,,,,,,0.85,0.5014579536579016,100.0
+Qwen 3 14B,aspect_sentiment,OTHER,2,,,,,,,,0.98,0.32996632996632996,100.0
+LAYA base (batch 4),review_intents,PRAISE,35,6.0,7.0,29.0,58.0,0.46153846153846156,0.17142857142857143,0.25000000000000006,,,
+LAYA base (batch 4),review_intents,COMPLAINT,60,1.0,0.0,59.0,40.0,1.0,0.016666666666666666,0.03278688524590164,,,
+LAYA base (batch 4),review_intents,RECOMMENDATION,4,3.0,12.0,1.0,84.0,0.2,0.75,0.31578947368421056,,,
+LAYA base (batch 4),review_intents,COMPARISON,2,0.0,5.0,2.0,93.0,0.0,0.0,0.0,,,
+LAYA base (batch 4),review_intents,QUESTION,5,1.0,2.0,4.0,93.0,0.3333333333333333,0.2,0.25,,,
+LAYA base (batch 4),review_intents,EXPERIENCE_REPORT,26,1.0,2.0,25.0,72.0,0.3333333333333333,0.038461538461538464,0.06896551724137931,,,
+LAYA base (batch 4),review_intents,RESOLUTION_REQUEST,3,0.0,0.0,3.0,97.0,0.0,0.0,0.0,,,
+LAYA base (batch 4),review_intents,GENERAL_REACTION,6,0.0,0.0,6.0,94.0,0.0,0.0,0.0,,,
+LAYA base (batch 4),review_intents,OTHER,0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,,,
+LAYA base (batch 4),aspect_categories,PRODUCT_QUALITY,14,12.0,65.0,2.0,21.0,0.15584415584415584,0.8571428571428571,0.26373626373626374,,,
+LAYA base (batch 4),aspect_categories,PRODUCT_FUNCTIONALITY,10,10.0,73.0,0.0,17.0,0.12048192771084337,1.0,0.21505376344086022,,,
+LAYA base (batch 4),aspect_categories,PRODUCT_DESIGN,3,3.0,72.0,0.0,25.0,0.04,1.0,0.07692307692307693,,,
+LAYA base (batch 4),aspect_categories,SIZE_FIT,7,5.0,65.0,2.0,28.0,0.07142857142857142,0.7142857142857143,0.12987012987012989,,,
+LAYA base (batch 4),aspect_categories,PRICE_VALUE,11,10.0,65.0,1.0,24.0,0.13333333333333333,0.9090909090909091,0.2325581395348837,,,
+LAYA base (batch 4),aspect_categories,DELIVERY,14,12.0,78.0,2.0,8.0,0.13333333333333333,0.8571428571428571,0.23076923076923078,,,
+LAYA base (batch 4),aspect_categories,PACKAGING,6,6.0,68.0,0.0,26.0,0.08108108108108109,1.0,0.15,,,
+LAYA base (batch 4),aspect_categories,SELLER_SERVICE,8,5.0,70.0,3.0,22.0,0.06666666666666667,0.625,0.12048192771084337,,,
+LAYA base (batch 4),aspect_categories,ORDER_FULFILLMENT,13,9.0,73.0,4.0,14.0,0.10975609756097561,0.6923076923076923,0.1894736842105263,,,
+LAYA base (batch 4),aspect_categories,AUTHENTICITY,4,4.0,85.0,0.0,11.0,0.0449438202247191,1.0,0.08602150537634408,,,
+LAYA base (batch 4),aspect_categories,RETURN_REFUND,7,7.0,76.0,0.0,17.0,0.08433734939759036,1.0,0.15555555555555556,,,
+LAYA base (batch 4),aspect_categories,CUSTOMER_SUPPORT,2,2.0,79.0,0.0,19.0,0.024691358024691357,1.0,0.048192771084337345,,,
+LAYA base (batch 4),aspect_categories,PRODUCT_AVAILABILITY,2,1.0,72.0,1.0,26.0,0.0136986301369863,0.5,0.02666666666666666,,,
+LAYA base (batch 4),aspect_categories,GENERAL_EXPERIENCE,16,15.0,55.0,1.0,29.0,0.21428571428571427,0.9375,0.3488372093023256,,,
+LAYA base (batch 4),aspect_categories,OTHER,2,2.0,73.0,0.0,25.0,0.02666666666666667,1.0,0.05194805194805195,,,
+LAYA base (batch 4),aspect_sentiment,PRODUCT_QUALITY,14,,,,,,,,0.26,0.12400999918142719,100.0
+LAYA base (batch 4),aspect_sentiment,PRODUCT_FUNCTIONALITY,10,,,,,,,,0.23,0.1742656875834446,100.0
+LAYA base (batch 4),aspect_sentiment,PRODUCT_DESIGN,3,,,,,,,,0.26,0.09530054644808741,100.0
+LAYA base (batch 4),aspect_sentiment,SIZE_FIT,7,,,,,,,,0.32,0.13434850269790713,100.0
+LAYA base (batch 4),aspect_sentiment,PRICE_VALUE,11,,,,,,,,0.28,0.13038938810440734,100.0
+LAYA base (batch 4),aspect_sentiment,DELIVERY,14,,,,,,,,0.17,0.14550760892224307,100.0
+LAYA base (batch 4),aspect_sentiment,PACKAGING,6,,,,,,,,0.31,0.1362210338680927,100.0
+LAYA base (batch 4),aspect_sentiment,SELLER_SERVICE,8,,,,,,,,0.25,0.13188525670994114,100.0
+LAYA base (batch 4),aspect_sentiment,ORDER_FULFILLMENT,13,,,,,,,,0.19,0.09878787878787879,100.0
+LAYA base (batch 4),aspect_sentiment,AUTHENTICITY,4,,,,,,,,0.14,0.0656259374639437,100.0
+LAYA base (batch 4),aspect_sentiment,RETURN_REFUND,7,,,,,,,,0.18,0.08681818181818182,100.0
+LAYA base (batch 4),aspect_sentiment,CUSTOMER_SUPPORT,2,,,,,,,,0.19,0.06495726495726496,100.0
+LAYA base (batch 4),aspect_sentiment,PRODUCT_AVAILABILITY,2,,,,,,,,0.27,0.0922909090909091,100.0
+LAYA base (batch 4),aspect_sentiment,GENERAL_EXPERIENCE,16,,,,,,,,0.4,0.23285903712770298,100.0
+LAYA base (batch 4),aspect_sentiment,OTHER,2,,,,,,,,0.26,0.07588075880758809,100.0
+LAYA base (batch 1),review_intents,PRAISE,35,6.0,7.0,29.0,58.0,0.46153846153846156,0.17142857142857143,0.25000000000000006,,,
+LAYA base (batch 1),review_intents,COMPLAINT,60,1.0,0.0,59.0,40.0,1.0,0.016666666666666666,0.03278688524590164,,,
+LAYA base (batch 1),review_intents,RECOMMENDATION,4,3.0,12.0,1.0,84.0,0.2,0.75,0.31578947368421056,,,
+LAYA base (batch 1),review_intents,COMPARISON,2,0.0,5.0,2.0,93.0,0.0,0.0,0.0,,,
+LAYA base (batch 1),review_intents,QUESTION,5,1.0,2.0,4.0,93.0,0.3333333333333333,0.2,0.25,,,
+LAYA base (batch 1),review_intents,EXPERIENCE_REPORT,26,1.0,2.0,25.0,72.0,0.3333333333333333,0.038461538461538464,0.06896551724137931,,,
+LAYA base (batch 1),review_intents,RESOLUTION_REQUEST,3,0.0,0.0,3.0,97.0,0.0,0.0,0.0,,,
+LAYA base (batch 1),review_intents,GENERAL_REACTION,6,0.0,0.0,6.0,94.0,0.0,0.0,0.0,,,
+LAYA base (batch 1),review_intents,OTHER,0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,,,
+LAYA base (batch 1),aspect_categories,PRODUCT_QUALITY,14,12.0,65.0,2.0,21.0,0.15584415584415584,0.8571428571428571,0.26373626373626374,,,
+LAYA base (batch 1),aspect_categories,PRODUCT_FUNCTIONALITY,10,10.0,73.0,0.0,17.0,0.12048192771084337,1.0,0.21505376344086022,,,
+LAYA base (batch 1),aspect_categories,PRODUCT_DESIGN,3,3.0,72.0,0.0,25.0,0.04,1.0,0.07692307692307693,,,
+LAYA base (batch 1),aspect_categories,SIZE_FIT,7,5.0,65.0,2.0,28.0,0.07142857142857142,0.7142857142857143,0.12987012987012989,,,
+LAYA base (batch 1),aspect_categories,PRICE_VALUE,11,10.0,65.0,1.0,24.0,0.13333333333333333,0.9090909090909091,0.2325581395348837,,,
+LAYA base (batch 1),aspect_categories,DELIVERY,14,12.0,78.0,2.0,8.0,0.13333333333333333,0.8571428571428571,0.23076923076923078,,,
+LAYA base (batch 1),aspect_categories,PACKAGING,6,6.0,68.0,0.0,26.0,0.08108108108108109,1.0,0.15,,,
+LAYA base (batch 1),aspect_categories,SELLER_SERVICE,8,5.0,70.0,3.0,22.0,0.06666666666666667,0.625,0.12048192771084337,,,
+LAYA base (batch 1),aspect_categories,ORDER_FULFILLMENT,13,9.0,73.0,4.0,14.0,0.10975609756097561,0.6923076923076923,0.1894736842105263,,,
+LAYA base (batch 1),aspect_categories,AUTHENTICITY,4,4.0,85.0,0.0,11.0,0.0449438202247191,1.0,0.08602150537634408,,,
+LAYA base (batch 1),aspect_categories,RETURN_REFUND,7,7.0,76.0,0.0,17.0,0.08433734939759036,1.0,0.15555555555555556,,,
+LAYA base (batch 1),aspect_categories,CUSTOMER_SUPPORT,2,2.0,79.0,0.0,19.0,0.024691358024691357,1.0,0.048192771084337345,,,
+LAYA base (batch 1),aspect_categories,PRODUCT_AVAILABILITY,2,1.0,72.0,1.0,26.0,0.0136986301369863,0.5,0.02666666666666666,,,
+LAYA base (batch 1),aspect_categories,GENERAL_EXPERIENCE,16,15.0,55.0,1.0,29.0,0.21428571428571427,0.9375,0.3488372093023256,,,
+LAYA base (batch 1),aspect_categories,OTHER,2,2.0,73.0,0.0,25.0,0.02666666666666667,1.0,0.05194805194805195,,,
+LAYA base (batch 1),aspect_sentiment,PRODUCT_QUALITY,14,,,,,,,,0.26,0.12400999918142719,100.0
+LAYA base (batch 1),aspect_sentiment,PRODUCT_FUNCTIONALITY,10,,,,,,,,0.23,0.1742656875834446,100.0
+LAYA base (batch 1),aspect_sentiment,PRODUCT_DESIGN,3,,,,,,,,0.26,0.09530054644808741,100.0
+LAYA base (batch 1),aspect_sentiment,SIZE_FIT,7,,,,,,,,0.32,0.13434850269790713,100.0
+LAYA base (batch 1),aspect_sentiment,PRICE_VALUE,11,,,,,,,,0.28,0.13038938810440734,100.0
+LAYA base (batch 1),aspect_sentiment,DELIVERY,14,,,,,,,,0.17,0.14550760892224307,100.0
+LAYA base (batch 1),aspect_sentiment,PACKAGING,6,,,,,,,,0.31,0.1362210338680927,100.0
+LAYA base (batch 1),aspect_sentiment,SELLER_SERVICE,8,,,,,,,,0.25,0.13188525670994114,100.0
+LAYA base (batch 1),aspect_sentiment,ORDER_FULFILLMENT,13,,,,,,,,0.19,0.09878787878787879,100.0
+LAYA base (batch 1),aspect_sentiment,AUTHENTICITY,4,,,,,,,,0.14,0.0656259374639437,100.0
+LAYA base (batch 1),aspect_sentiment,RETURN_REFUND,7,,,,,,,,0.18,0.08681818181818182,100.0
+LAYA base (batch 1),aspect_sentiment,CUSTOMER_SUPPORT,2,,,,,,,,0.19,0.06495726495726496,100.0
+LAYA base (batch 1),aspect_sentiment,PRODUCT_AVAILABILITY,2,,,,,,,,0.27,0.0922909090909091,100.0
+LAYA base (batch 1),aspect_sentiment,GENERAL_EXPERIENCE,16,,,,,,,,0.4,0.23285903712770298,100.0
+LAYA base (batch 1),aspect_sentiment,OTHER,2,,,,,,,,0.26,0.07588075880758809,100.0
+LAYA fine-tuned (batch 4),review_intents,PRAISE,35,16.0,8.0,19.0,57.0,0.6666666666666666,0.45714285714285713,0.5423728813559322,,,
+LAYA fine-tuned (batch 4),review_intents,COMPLAINT,60,60.0,20.0,0.0,20.0,0.75,1.0,0.8571428571428571,,,
+LAYA fine-tuned (batch 4),review_intents,RECOMMENDATION,4,0.0,0.0,4.0,96.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),review_intents,COMPARISON,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),review_intents,QUESTION,5,2.0,2.0,3.0,93.0,0.5,0.4,0.4444444444444445,,,
+LAYA fine-tuned (batch 4),review_intents,EXPERIENCE_REPORT,26,0.0,0.0,26.0,74.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),review_intents,RESOLUTION_REQUEST,3,0.0,0.0,3.0,97.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),review_intents,GENERAL_REACTION,6,2.0,2.0,4.0,92.0,0.5,0.3333333333333333,0.4,,,
+LAYA fine-tuned (batch 4),review_intents,OTHER,0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),aspect_categories,PRODUCT_QUALITY,14,13.0,16.0,1.0,70.0,0.4482758620689655,0.9285714285714286,0.6046511627906977,,,
+LAYA fine-tuned (batch 4),aspect_categories,PRODUCT_FUNCTIONALITY,10,8.0,4.0,2.0,86.0,0.6666666666666666,0.8,0.7272727272727272,,,
+LAYA fine-tuned (batch 4),aspect_categories,PRODUCT_DESIGN,3,2.0,2.0,1.0,95.0,0.5,0.6666666666666666,0.5714285714285715,,,
+LAYA fine-tuned (batch 4),aspect_categories,SIZE_FIT,7,6.0,0.0,1.0,93.0,1.0,0.8571428571428571,0.923076923076923,,,
+LAYA fine-tuned (batch 4),aspect_categories,PRICE_VALUE,11,6.0,2.0,5.0,87.0,0.75,0.5454545454545454,0.631578947368421,,,
+LAYA fine-tuned (batch 4),aspect_categories,DELIVERY,14,9.0,0.0,5.0,86.0,1.0,0.6428571428571429,0.782608695652174,,,
+LAYA fine-tuned (batch 4),aspect_categories,PACKAGING,6,4.0,2.0,2.0,92.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,,,
+LAYA fine-tuned (batch 4),aspect_categories,SELLER_SERVICE,8,7.0,5.0,1.0,87.0,0.5833333333333334,0.875,0.7000000000000001,,,
+LAYA fine-tuned (batch 4),aspect_categories,ORDER_FULFILLMENT,13,9.0,16.0,4.0,71.0,0.36,0.6923076923076923,0.47368421052631576,,,
+LAYA fine-tuned (batch 4),aspect_categories,AUTHENTICITY,4,4.0,0.0,0.0,96.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 4),aspect_categories,RETURN_REFUND,7,7.0,0.0,0.0,93.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 4),aspect_categories,CUSTOMER_SUPPORT,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),aspect_categories,PRODUCT_AVAILABILITY,2,2.0,0.0,0.0,98.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 4),aspect_categories,GENERAL_EXPERIENCE,16,13.0,15.0,3.0,69.0,0.4642857142857143,0.8125,0.5909090909090908,,,
+LAYA fine-tuned (batch 4),aspect_categories,OTHER,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 4),aspect_sentiment,PRODUCT_QUALITY,14,,,,,,,,0.81,0.3891701598707968,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,PRODUCT_FUNCTIONALITY,10,,,,,,,,0.91,0.4166350503429156,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,PRODUCT_DESIGN,3,,,,,,,,0.96,0.4948186528497409,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,SIZE_FIT,7,,,,,,,,0.98,0.6986631016042781,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,PRICE_VALUE,11,,,,,,,,0.93,0.4711007224819379,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,DELIVERY,14,,,,,,,,0.92,0.6804378531073446,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,PACKAGING,6,,,,,,,,0.96,0.7706855791962174,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,SELLER_SERVICE,8,,,,,,,,0.93,0.7405228758169934,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,ORDER_FULFILLMENT,13,,,,,,,,0.79,0.4320390282755875,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,AUTHENTICITY,4,,,,,,,,0.99,0.6666666666666666,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,RETURN_REFUND,7,,,,,,,,0.96,0.4133333333333333,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,CUSTOMER_SUPPORT,2,,,,,,,,0.98,0.32996632996632996,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,PRODUCT_AVAILABILITY,2,,,,,,,,1.0,1.0,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,GENERAL_EXPERIENCE,16,,,,,,,,0.79,0.5307416597739179,100.0
+LAYA fine-tuned (batch 4),aspect_sentiment,OTHER,2,,,,,,,,0.98,0.32996632996632996,100.0
+LAYA fine-tuned (batch 1),review_intents,PRAISE,35,16.0,8.0,19.0,57.0,0.6666666666666666,0.45714285714285713,0.5423728813559322,,,
+LAYA fine-tuned (batch 1),review_intents,COMPLAINT,60,60.0,20.0,0.0,20.0,0.75,1.0,0.8571428571428571,,,
+LAYA fine-tuned (batch 1),review_intents,RECOMMENDATION,4,0.0,0.0,4.0,96.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),review_intents,COMPARISON,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),review_intents,QUESTION,5,2.0,2.0,3.0,93.0,0.5,0.4,0.4444444444444445,,,
+LAYA fine-tuned (batch 1),review_intents,EXPERIENCE_REPORT,26,0.0,0.0,26.0,74.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),review_intents,RESOLUTION_REQUEST,3,0.0,0.0,3.0,97.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),review_intents,GENERAL_REACTION,6,2.0,2.0,4.0,92.0,0.5,0.3333333333333333,0.4,,,
+LAYA fine-tuned (batch 1),review_intents,OTHER,0,0.0,0.0,0.0,100.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),aspect_categories,PRODUCT_QUALITY,14,13.0,16.0,1.0,70.0,0.4482758620689655,0.9285714285714286,0.6046511627906977,,,
+LAYA fine-tuned (batch 1),aspect_categories,PRODUCT_FUNCTIONALITY,10,8.0,4.0,2.0,86.0,0.6666666666666666,0.8,0.7272727272727272,,,
+LAYA fine-tuned (batch 1),aspect_categories,PRODUCT_DESIGN,3,2.0,2.0,1.0,95.0,0.5,0.6666666666666666,0.5714285714285715,,,
+LAYA fine-tuned (batch 1),aspect_categories,SIZE_FIT,7,6.0,0.0,1.0,93.0,1.0,0.8571428571428571,0.923076923076923,,,
+LAYA fine-tuned (batch 1),aspect_categories,PRICE_VALUE,11,6.0,2.0,5.0,87.0,0.75,0.5454545454545454,0.631578947368421,,,
+LAYA fine-tuned (batch 1),aspect_categories,DELIVERY,14,9.0,0.0,5.0,86.0,1.0,0.6428571428571429,0.782608695652174,,,
+LAYA fine-tuned (batch 1),aspect_categories,PACKAGING,6,4.0,2.0,2.0,92.0,0.6666666666666666,0.6666666666666666,0.6666666666666666,,,
+LAYA fine-tuned (batch 1),aspect_categories,SELLER_SERVICE,8,7.0,5.0,1.0,87.0,0.5833333333333334,0.875,0.7000000000000001,,,
+LAYA fine-tuned (batch 1),aspect_categories,ORDER_FULFILLMENT,13,9.0,16.0,4.0,71.0,0.36,0.6923076923076923,0.47368421052631576,,,
+LAYA fine-tuned (batch 1),aspect_categories,AUTHENTICITY,4,4.0,0.0,0.0,96.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 1),aspect_categories,RETURN_REFUND,7,7.0,0.0,0.0,93.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 1),aspect_categories,CUSTOMER_SUPPORT,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),aspect_categories,PRODUCT_AVAILABILITY,2,2.0,0.0,0.0,98.0,1.0,1.0,1.0,,,
+LAYA fine-tuned (batch 1),aspect_categories,GENERAL_EXPERIENCE,16,13.0,15.0,3.0,69.0,0.4642857142857143,0.8125,0.5909090909090908,,,
+LAYA fine-tuned (batch 1),aspect_categories,OTHER,2,0.0,0.0,2.0,98.0,0.0,0.0,0.0,,,
+LAYA fine-tuned (batch 1),aspect_sentiment,PRODUCT_QUALITY,14,,,,,,,,0.81,0.3891701598707968,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,PRODUCT_FUNCTIONALITY,10,,,,,,,,0.91,0.4166350503429156,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,PRODUCT_DESIGN,3,,,,,,,,0.96,0.4948186528497409,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,SIZE_FIT,7,,,,,,,,0.98,0.6986631016042781,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,PRICE_VALUE,11,,,,,,,,0.93,0.4711007224819379,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,DELIVERY,14,,,,,,,,0.92,0.6804378531073446,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,PACKAGING,6,,,,,,,,0.96,0.7706855791962174,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,SELLER_SERVICE,8,,,,,,,,0.93,0.7405228758169934,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,ORDER_FULFILLMENT,13,,,,,,,,0.79,0.4320390282755875,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,AUTHENTICITY,4,,,,,,,,0.99,0.6666666666666666,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,RETURN_REFUND,7,,,,,,,,0.96,0.4133333333333333,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,CUSTOMER_SUPPORT,2,,,,,,,,0.98,0.32996632996632996,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,PRODUCT_AVAILABILITY,2,,,,,,,,1.0,1.0,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,GENERAL_EXPERIENCE,16,,,,,,,,0.79,0.5307416597739179,100.0
+LAYA fine-tuned (batch 1),aspect_sentiment,OTHER,2,,,,,,,,0.98,0.32996632996632996,100.0

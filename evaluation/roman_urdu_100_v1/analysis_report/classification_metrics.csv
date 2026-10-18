@@ -1,0 +1,32 @@
+system,task,n,accuracy,macro_f1,classes
+Qwen 3 14B,relevance,100,0.99,0.9611611611611611,3
+Qwen 3 14B,overall_sentiment,100,0.88,0.8320847997318586,6
+Qwen 3 14B,language_primary,100,0.85,0.45767314081267574,4
+Qwen 3 14B,code_switching,100,0.88,0.5391705069124424,2
+Qwen 3 14B,understandable,100,0.99,0.49748743718592964,2
+Qwen 3 14B,sentiment_evidence_present,100,0.95,0.8991732204073402,2
+LAYA base (batch 4),relevance,100,0.29,0.20570728291316528,3
+LAYA base (batch 4),overall_sentiment,100,0.42,0.23504212290977,6
+LAYA base (batch 4),language_primary,100,0.0,0.0,6
+LAYA base (batch 4),code_switching,100,0.87,0.4652406417112299,2
+LAYA base (batch 4),understandable,100,0.2,0.1732120711037619,2
+LAYA base (batch 1),relevance,100,0.29,0.20570728291316528,3
+LAYA base (batch 1),overall_sentiment,100,0.42,0.23504212290977,6
+LAYA base (batch 1),language_primary,100,0.0,0.0,6
+LAYA base (batch 1),code_switching,100,0.87,0.4652406417112299,2
+LAYA base (batch 1),understandable,100,0.2,0.1732120711037619,2
+LAYA fine-tuned (batch 4),relevance,100,0.92,0.634032634032634,3
+LAYA fine-tuned (batch 4),overall_sentiment,100,0.74,0.4985061873503908,6
+LAYA fine-tuned (batch 4),language_primary,100,0.86,0.4587012987012987,4
+LAYA fine-tuned (batch 4),code_switching,100,0.87,0.4652406417112299,2
+LAYA fine-tuned (batch 4),understandable,100,0.99,0.49748743718592964,2
+LAYA fine-tuned (batch 1),relevance,100,0.92,0.634032634032634,3
+LAYA fine-tuned (batch 1),overall_sentiment,100,0.74,0.4985061873503908,6
+LAYA fine-tuned (batch 1),language_primary,100,0.86,0.4587012987012987,4
+LAYA fine-tuned (batch 1),code_switching,100,0.87,0.4652406417112299,2
+LAYA fine-tuned (batch 1),understandable,100,0.99,0.49748743718592964,2
+Qwen 3 14B,aspect_sentiment_all_categories,1500,0.9486666666666667,0.4432230206341881,6
+LAYA base (batch 4),aspect_sentiment_all_categories,1500,0.24733333333333332,0.10553875269210283,6
+LAYA base (batch 1),aspect_sentiment_all_categories,1500,0.24733333333333332,0.10553875269210283,6
+LAYA fine-tuned (batch 4),aspect_sentiment_all_categories,1500,0.926,0.4063098071712556,6
+LAYA fine-tuned (batch 1),aspect_sentiment_all_categories,1500,0.926,0.4063098071712556,6

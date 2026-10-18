@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this research repository, please cite it and the upstream RUECD dataset. Replace the placeholder metadata before release."
+title: "Roman Urdu E-Commerce Sentiment Research: Qwen-Assisted Annotation and LAYA Evaluation"
+type: software
+authors:
+  - family-names: "Replace with author surname"
+    given-names: "Replace with author given name"
+version: 0.1.0
+date-released: 2026-10-18
+repository-code: "https://github.com/REPLACE-OWNER/REPLACE-REPO"
+references:
+  - type: software
+    title: "RU-BiSLTM / RUECD: Roman Urdu E-Commerce Dataset"
+    authors:
+      - name: "bilalbaloch1"
+    url: "https://github.com/bilalbaloch1/RU-BiSLTM"

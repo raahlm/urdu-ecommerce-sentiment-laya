@@ -1,0 +1,6 @@
+system,records,measured_loop_seconds_sum,seconds_per_record,records_per_second,timing_note
+Qwen 3 14B,100,163.99045019500772,1.6399045019500773,0.6097916060422173,Sum of Qwen active loop times; excludes warmup and inter-run gap
+LAYA base (batch 4),100,1.46236145599687,0.0146236145599687,68.38254631911882,Reported LAYA inference loop; excludes initial model load
+LAYA base (batch 1),100,1.8554432050004834,0.018554432050004833,53.89547884327397,Reported LAYA inference loop; excludes initial model load
+LAYA fine-tuned (batch 4),100,1.4604759409994585,0.014604759409994585,68.47083008540781,Reported LAYA inference loop; excludes initial model load
+LAYA fine-tuned (batch 1),100,1.857288322004024,0.018572883220040238,53.84193655624748,Reported LAYA inference loop; excludes initial model load

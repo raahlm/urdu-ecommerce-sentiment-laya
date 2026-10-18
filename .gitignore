@@ -1,0 +1,77 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.conda/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*
+*secret*
+credentials.json
+
+# Model weights, checkpoints, and caches
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.gguf
+checkpoints/
+**/checkpoint_*/
+**/checkpoints/
+models/
+.cache/
+.cache-huggingface/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# Raw/private/intermediate datasets (review files before force-adding)
+data/raw/
+data/private/
+data/intermediate/
+*.parquet
+*.jsonl
+*.csv
+!docs/example_*.csv
+
+# Machine-specific outputs
+.DS_Store
+Thumbs.db
+
+# Project-specific research artifacts: do not publish by default
+laya_work/
+qwen_work/
+data/
+backups/
+logs/
+__pycache__/
+*.bak
+*.backup_*
+*.before_indent_fix
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+queries.txt
+roman_urdu_100_input.csv
+roman_urdu_100_reference_labels.csv
+roman_urdu_100_reference_labels.jsonl
+
+# Model training and inference outputs
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
