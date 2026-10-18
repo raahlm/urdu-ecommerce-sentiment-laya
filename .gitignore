@@ -75,3 +75,6 @@ roman_urdu_100_reference_labels.jsonl
 *.pth
 *.ckpt
 *.gguf
+
+# Allow the exported LAYA model weights; stored through Git LFS
+!model_release/laya-roman-urdu-sentiment/model.safetensors

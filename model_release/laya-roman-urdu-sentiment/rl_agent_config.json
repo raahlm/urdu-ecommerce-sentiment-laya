@@ -1,0 +1,43 @@
+{
+  "encoder": "jhu-clsp/mmBERT-base",
+  "head_layers": 2,
+  "max_len": 256,
+  "head_max_len": 256,
+  "max_prefixes": 6,
+  "act_costs": {
+    "escalate": 0.5
+  },
+  "cost_wrong_act": 3.0,
+  "amp_dtype": "bf16",
+  "model_name": "rl-agent",
+  "temperature": [
+    5.0,
+    1.0,
+    5.0
+  ],
+  "training": {
+    "updates": 15987,
+    "epochs_completed": 4,
+    "hours": 4.97,
+    "world_size": 1,
+    "fine_tuned_from_checkpoint": false,
+    "laya_train_ddp": {
+      "base": "multilingual",
+      "epochs": 4,
+      "micro_batch_per_gpu": 8,
+      "grad_accum": 4,
+      "world_size": 2,
+      "effective_batch": 64,
+      "encoder_lr": 2.5e-05,
+      "head_lr": 0.0001,
+      "rl_samples": 4,
+      "seed": 13,
+      "max_len": 256,
+      "head_max_len": 256,
+      "training_items": 237690,
+      "calibration_items": 400,
+      "limit_items": 0
+    }
+  },
+  "fine_tuned": true
+}
