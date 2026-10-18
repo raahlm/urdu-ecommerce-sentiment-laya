@@ -106,3 +106,17 @@ See [`CITATION.cff`](CITATION.cff) for a starter citation file. Replace placehol
 ## Current state
 
 This repository template is intended to document the work transparently. Before public release, populate it with the real code, charts, evaluation configs, and environment exports; verify every metric; and complete the data/model license review. No claim is made here that a public repository has already been created or that the full pipeline is production-ready.
+
+## LAYA Fine-Tuning Results
+
+### Metric Improvements
+
+![LAYA fine-tuning metric improvements](figures/laya_metric_improvements.png)
+
+### Training Loss
+
+![LAYA fine-tuning training loss](figures/laya_training_loss.png)
+
+See the [evaluation report](evaluation/roman_urdu_100_v1/analysis_report/REPORT.md)
+for evaluation metrics and limitations. The 100-record evaluation uses
+silver labels that have not been independently verified by human annotators.
