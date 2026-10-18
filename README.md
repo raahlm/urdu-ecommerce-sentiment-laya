@@ -111,12 +111,20 @@ This repository template is intended to document the work transparently. Before 
 
 ### Metric Improvements
 
-![LAYA fine-tuning metric improvements](figures/laya_metric_improvements.png)
+
 
 ### Training Loss
 
-![LAYA fine-tuning training loss](figures/laya_training_loss.png)
+
 
 See the [evaluation report](evaluation/roman_urdu_100_v1/analysis_report/REPORT.md)
 for evaluation metrics and limitations. The 100-record evaluation uses
 silver labels that have not been independently verified by human annotators.
+
+### Before vs. After Fine-Tuning
+
+![LAYA accuracy comparison before and after fine-tuning](figures/02_accuracy_comparison.png)
+
+### Calibration and Risk
+
+![LAYA calibration and risk comparison](figures/03_calibration_and_risk.png)
